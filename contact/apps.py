@@ -1,7 +1,6 @@
 from django.apps import AppConfig
 
 
-class PageConfig(AppConfig):
+class ContactConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'page'
-    verbose_name= 'Gestor de paginas'
+    name = 'contact'
